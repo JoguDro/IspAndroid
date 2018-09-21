@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_ime"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPrezima"
+        android:hint="@string/unesite_prezime"
+        />
+    <EditText
+        android:id="@+id/etAdresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_adresu"
+        />
+    <Spinner
+        android:id="@+id/spGradovi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/etOib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_oib"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/etTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_broj_telfona"
+        android:inputType="phone"
+        />
+    <RadioGroup
+        android:id="@+id/rgSpol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbM"
+            android:text="@string/mu_ki"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbZ"
+            android:text="@string/enski"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSpremiPod"
+            android:text="@string/spremi_podatke"
+            />
+
+
+    </RadioGroup>
+
+
+
+
+
+</LinearLayout>

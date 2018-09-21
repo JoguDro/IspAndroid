@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IspAndroid</string>
+    <string name="unesite_ime">Unesite Ime:</string>
+    <string name="unesite_adresu">Unesite adresu:</string>
+    <string name="unesite_oib">Unesite Oib:</string>
+    <string name="unesite_broj_telfona">Unesite broj telfona:</string>
+    <string name="mu_ki">Muški</string>
+    <string name="enski">Ženski</string>
+    <string name="spremi_podatke">Spremi Podatke</string>
+    <string name="unesite_prezime">Unesite prezime:</string>
+    <string name="da">da</string>
+    <string name="ne">ne</string>
+    <string name="zatvori">zatvori</string>
+    <string name="da_li_zelite_upisati_jos_jednog_korisnika">Da li zelite upisati jos jednog korisnika</string>
+
+    <string-array name="gradovi">
+        <item>Osijek</item>
+        <item>Zagreb</item>
+        <item>Split</item>
+        <item>Dubrovnik</item>
+        <item>Rijeka</item>
+        <item>Zadar</item>
+        <item>Pula</item>
+        <item>Trogir</item>
+        <item>Šibenik</item>
+    </string-array>
+</resources>
